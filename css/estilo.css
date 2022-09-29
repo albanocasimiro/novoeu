@@ -14,6 +14,7 @@
   align-items: center;
   width: 100%;
   height: 50px;
+  padding: 10px;
   background-color: black;
   color: white;
 }
@@ -120,6 +121,7 @@
   display: flex;
   justify-content: center;
 }
+
 .frases h1{
   padding: 8px;
   text-transform: uppercase;
@@ -160,6 +162,12 @@
  .frases img:hover{
    transform: none;
  }
+ .frases div li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
  
 }
 /*FOOTER*/
